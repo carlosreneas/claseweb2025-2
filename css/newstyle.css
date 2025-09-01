@@ -1,0 +1,25 @@
+#myheader {
+	background-color: #456789;
+}
+
+p#myheader {
+	background-color: green;
+}
+
+h2 + p {
+	font-weight: bold;
+}
+
+a[href="https://www.google.com"] {
+	color: blue;
+}
+
+nav li:hover {
+	background-color: red;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.panel>h2:before {
+	content: "Panel ";
+}

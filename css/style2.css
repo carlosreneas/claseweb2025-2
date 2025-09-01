@@ -1,0 +1,91 @@
+/* Variables de color */
+:root {
+  --verde: #3CAC3B;
+  --azul: #2A398D;
+  --rojo: #E61D25;
+  --gris-claro: #D1D4D1;
+  --gris-oscuro: #474A4A;
+  --blanco: #FFFFFF;
+}
+
+/* Body */
+body {
+  background-color: var(--gris-claro);
+  color: var(--gris-oscuro);
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--azul);
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+
+/* Menú */
+nav {
+  background-color: var(--blanco);
+  border-bottom: 3px solid var(--verde);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+nav ul li a {
+  color: var(--azul);
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+nav ul li a:hover {
+  color: var(--blanco);
+  background-color: var(--verde);
+  border-radius: 4px;
+}
+
+/* Carrusel */
+.carrusel img {
+  width: 100%;
+  height: auto;
+  border: 4px solid var(--verde);
+}
+.carrusel .imagenes { /* animación igual que antes */ }
+
+/* Paneles */
+.paneles .panel {
+  background-color: var(--blanco);
+  border: 2px solid var(--azul);
+  padding: 20px;
+  border-radius: 8px;
+}
+.paneles .panel h2 {
+  color: var(--rojo);
+}
+
+/* Contacto */
+.contacto {
+  background-color: var(--azul);
+  color: var(--blanco);
+  padding: 20px;
+  text-align: center;
+}
+.contacto p {
+  margin: 8px 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--verde);
+  color: var(--blanco);
+  text-align: center;
+  padding: 15px;
+}

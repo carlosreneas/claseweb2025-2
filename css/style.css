@@ -1,0 +1,139 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#myheader {
+    background-color: white;
+    color: black;
+    height: 300px;
+}
+/* FUENTE GENERAL Y COLORES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ea;
+    color: #2e563f;
+}
+
+/* HEADER */
+header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+nav {
+    background-color: #388E3C;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CARRUSEL */
+.carrusel {
+    overflow: hidden;
+    width: 100%;
+    max-height: 400px;
+    margin: 20px 0;
+}
+
+.carrusel .imagenes {
+    display: flex;
+    /* animation: deslizar 15s infinite linear; */ 
+}
+
+.carrusel .imagenes img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+@keyframes deslizar {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+/* PANELES */
+.paneles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.panel {
+    flex: 1;
+    min-width: 300px;
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.1);
+}
+
+/* CONTACTO */
+.contacto {
+    background-color: #a5d6a7;
+    padding: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+.header_class {
+    color: yellow;
+    background-color: red;
+}
+
+.header_class {
+    color: pink;
+    background-color: blue;
+}
+
+header {
+    background-color: peru;
+}
+
